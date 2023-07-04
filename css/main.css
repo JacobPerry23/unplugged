@@ -142,11 +142,11 @@ p {
 }
  
 img {
- 
+ width: 100%;
 }
  
 figure {
- 
+ margin: 0;
 }
  
 address {
@@ -195,6 +195,10 @@ header nav ul {
   width: 100%;
 }
 
+header figure {
+  width: 60%;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -237,6 +241,11 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
+  background-image: url('../img/unplugged-retreat.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
 }
 
 .hero-area h1 {
