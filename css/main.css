@@ -338,19 +338,19 @@ input[type=button] {
 /* Reviews */
 
 .reviews {
-  display: flex;
-  justify-content: center;
-  background-color: #2a423a;
+background-color: #2a423a;
+display: flex;
+justify-content: center;
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
-  line-height: 1;
+margin-bottom: 40px;
+line-height: 1;
 }
 
 .reviews h3 {
-  width: 55%;
-  margin: 20px 0;
+width: 55%;
+margin: 20px 0;
 }
 
 /* About Page */
@@ -604,6 +604,7 @@ input[type=button] {
   }
 
   /* Reviews */
+  
   .reviews article {
     display: flex;
     justify-content: space-between;
@@ -613,6 +614,7 @@ input[type=button] {
     width: 85%;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
